@@ -27,7 +27,7 @@ int main( int argc, char** argv )
    * Обратите внимание на порядок cols, rows
    */ 
   cv::Size matSize( 3, 5 );
-  cv::Mat mat5x3( matSize, CV_8UC1 );
+  cv::Mat mat5x3( matSize, CV_8UC1 ); 
   std::cout << mat5x3 << std::endl;
   /*
    * Матрица со значениями по умолчанию
@@ -44,7 +44,7 @@ int main( int argc, char** argv )
   /*
    * Копирование определенного столбца или колонки
    */
-  cv::Mat rowClone  = mat2x2predifined.row(1).clone();
+  cv::Mat rowClone = mat2x2predifined.row(1).clone();
   cv::Mat rowCopyTo;
   mat2x2predifined.row(1).copyTo( rowCopyTo );
 
@@ -111,6 +111,37 @@ int main( int argc, char** argv )
   {
     std::cout << *it << std::endl;
   }
+  /*
+   * Конвертирование в различные цветовые схемы
+   */
+  cv::Mat yuvImage;
+  cv::cvtColor( colorImage, yuvImage, cv::COLOR_BGR2YUV ); 
+  cv::imshow( "YUV image", yuvImage );
+  cv::waitKey();
+  /*
+   * Захват изображения с web-камеры
+   * https://docs.opencv.org/4.2.0/d8/dfe/classcv_1_1VideoCapture.html
+   */
+  cv::VideoCapture vCap = cv::VideoCapture( 0 );
+
+  cv::Mat frame;
+  char key;
+  while( vCap.isOpened() )
+  {
+    vCap.read( frame );
+    //vCap >> frame;
+
+    cv::imshow( "Web-cam", frame );
+    key = (char)cv::waitKey(27);
+    
+    if( key == 27 )//ESC
+    {
+      vCap.release();
+      break;
+    }
+  }
+
+  cv::destroyAllWindows();
 
   return 0;
 }
