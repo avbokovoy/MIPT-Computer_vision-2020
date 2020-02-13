@@ -8,6 +8,10 @@
 │   │   ├── CMakeLists.txt
 │   │   ├── image_processing.cpp
 │   │   └── README.md
+│   ├── exercise
+│   │   ├── histogram.py
+│   │   ├── image_convert.py
+│   │   └── README.md
 │   ├── python
 │   │   └── opencv-imgproc.ipynb
 │   └── README.md
