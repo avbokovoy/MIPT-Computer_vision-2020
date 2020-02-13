@@ -3,7 +3,7 @@
 ## Структура проекта:
 
 ```bash
-├── 1-Introduction
+├── 1-Introduction                -- Семинар 13.02.2020
 │   ├── cpp
 │   │   ├── CMakeLists.txt
 │   │   ├── image_processing.cpp
