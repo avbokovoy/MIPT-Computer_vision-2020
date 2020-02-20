@@ -15,7 +15,7 @@
 │   ├── python
 │   │   └── opencv-imgproc.ipynb
 │   └── README.md
-├── 2-Preprocessing                -- Семинар 20.02.2020 
+├── 2-Preprocessing                 -- Семинар 20.02.2020 
 │   ├── homework
 │   │   ├── preprocessing.py
 │   │   └── README.md
