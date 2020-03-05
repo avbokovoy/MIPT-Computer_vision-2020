@@ -22,6 +22,15 @@
 │   ├── python
 │   │   └── cv-preprocessing.py
 │   └── README.md
+├── 3-Sampling                      -- Семинар 27.02.2020
+│   ├── exercise
+│   │   └── README.md
+│   └── python
+│       ├── scikit-image-ex.ipynb
+│       └── tmp.jpg
+├── 4-Feature-detector              -- Семинар 05.03.2020
+│   └── homework
+│       └── README.md
 ├── CMakeLists.txt
 ├── img
 │   └── dragonfly.jpg
