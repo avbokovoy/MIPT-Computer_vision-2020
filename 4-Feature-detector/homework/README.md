@@ -7,3 +7,5 @@
 4) [ORB](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.370.4395&rep=rep1&type=pdf)
 
 Распределение заданий будет выложено в группе.
+
+Написать отчет (1-2) страницы
