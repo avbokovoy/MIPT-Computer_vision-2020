@@ -14,4 +14,4 @@
 2) Визуализировать полученные результаты
 
 Примеры карт глубин:
-- 
+https://drive.google.com/file/d/1IU_18DufqTkPbdDbhFSPDZ-4ktY2m9aB/view?usp=sharing
