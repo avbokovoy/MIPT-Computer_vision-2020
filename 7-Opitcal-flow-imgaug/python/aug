@@ -1,0 +1,13 @@
+# 1 "/home/andrey/Workspace/MIPT-Computer_vision-2020/5-Optical-flow/python/aug.py"
+# 1 "/usr/bin//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 31 "<command-line>"
+# 1 "/usr/include/stdc-predef.h" 1 3 4
+# 32 "<command-line>" 2
+# 1 "/home/andrey/Workspace/MIPT-Computer_vision-2020/5-Optical-flow/python/aug.py"
+import cv2
+import imgaug as ia
+
+img = cv2.imread( 'BRACHYLAGUS_IDAHOENSIS.jpg' )
+cv2.imshow(img)
