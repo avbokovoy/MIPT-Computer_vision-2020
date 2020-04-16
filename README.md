@@ -45,6 +45,16 @@
 │       ├── r-1316653580.484909-1316500621.ppm
 │       ├── r-1316653648.627037-1110120975.ppm
 │       └── r-1316653677.431323-2838369375.ppm
+├── 6-Opitcal-flow-imgaug            -- Cеминиар 15.04.2020
+│   ├── homework
+│   │   └── README.md
+│   └── python
+│       ├── aug
+│       ├── aug.py
+│       ├── BRACHYLAGUS_IDAHOENSIS.jpg
+│       ├── lucas-kanade.py
+│       ├── README.md
+│       └── slow_traffic_small.mp4
 ├── CMakeLists.txt
 ├── img
 │   └── dragonfly.jpg
