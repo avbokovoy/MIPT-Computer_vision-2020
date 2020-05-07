@@ -15,3 +15,5 @@
 Interleaving:
 1. https://arxiv.org/pdf/1907.07210.pdf - параграф III D.
 2. https://arxiv.org/pdf/1606.00373.pdf - рис. 3.
+
+Срок: до 23:59 20.05.2020
